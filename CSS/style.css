@@ -8,5 +8,17 @@ body {
 
 h1, h2, h3, p {
     margin: 0;
-    padding: 10px;
+    padding: 3px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+img.about{
+    max-width: 25%;
+    max-height: 500px;
 }
