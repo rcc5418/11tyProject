@@ -1,6 +1,7 @@
 ---
-title: Home
 layout: base.njk
+title: Home
+permalink: "index.html"
 ---
 
 ### Hello!
