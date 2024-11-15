@@ -22,3 +22,34 @@ img.about{
     max-width: 25%;
     max-height: 500px;
 }
+
+/* The following CSS dictates the styling of the auto-generated image storage page*/
+/* Sets the max-width for the image-storage container*/
+div.image-container {
+    max-width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+/* Styles each individual image, maintaining aspect ratio and adding drop shadow*/
+div.image-container img {
+    max-width: 100%;
+    height: auto;
+    width: 20vw;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*Centers the labels of each individual image, as well as handles flexible displays */
+div.image-container .image_storage {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
