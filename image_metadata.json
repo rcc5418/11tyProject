@@ -1,11 +1,35 @@
 [
   {
+    "filename": "backgroundBug.png",
+    "filepath": "images\\backgroundBug.png"
+  },
+  {
+    "filename": "backgroundBug2.png",
+    "filepath": "images\\backgroundBug2.png"
+  },
+  {
     "filename": "bugLogo.png",
     "filepath": "images\\bugLogo.png"
   },
   {
     "filename": "dancewithdragons.jpg",
     "filepath": "images\\dancewithdragons.jpg"
+  },
+  {
+    "filename": "falling.png",
+    "filepath": "images\\falling.png"
+  },
+  {
+    "filename": "frog_3d.png",
+    "filepath": "images\\frog_3d.png"
+  },
+  {
+    "filename": "frog_jump_3d.png",
+    "filepath": "images\\frog_jump_3d.png"
+  },
+  {
+    "filename": "nofaceteacup.jpg",
+    "filepath": "images\\nofaceteacup.jpg"
   },
   {
     "filename": "ObsidianKingHungrier.png",
@@ -18,5 +42,13 @@
   {
     "filename": "onepiece.jpg",
     "filepath": "images\\onepiece.jpg"
+  },
+  {
+    "filename": "subwayThumbnail.png",
+    "filepath": "images\\subwayThumbnail.png"
+  },
+  {
+    "filename": "vgSoundThumbnail.png",
+    "filepath": "images\\vgSoundThumbnail.png"
   }
 ]
