@@ -64,3 +64,24 @@ function init() {
         }
     }
 }
+document.addEventListener('DOMContentLoaded', () => {
+    const checkbox = document.getElementById('bg-toggle');
+
+    // Load the saved state from localStorage
+    const isPlainBackground = localStorage.getItem('usePlainBackground') === 'true';
+    if (isPlainBackground) {
+        document.body.classList.add('plain-background');
+        checkbox.checked = true;
+    }
+
+    // Toggle background on checkbox change
+    checkbox.addEventListener('change', () => {
+        if (checkbox.checked) {
+            document.body.classList.add('plain-background');
+            localStorage.setItem('usePlainBackground', 'true');
+        } else {
+            document.body.classList.remove('plain-background');
+            localStorage.setItem('usePlainBackground', 'false');
+        }
+    });
+});

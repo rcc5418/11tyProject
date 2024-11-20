@@ -59,8 +59,12 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
+body.plain-background {
+    background-image: none;
+    background-color: #4c8c61;
+}
 
-h1, h2, h3, p {
+h1, h2, h3, p, ul {
     padding: 5vw;
     line-height: 1.5em;
     border: .5vw;
@@ -81,6 +85,9 @@ h1,h2,h3{
 p{
     font-size: 1.25em;
 }
+p img{
+    max-width: 25%;
+}
 
 .footer{
     position: static;
@@ -94,20 +101,24 @@ img.about{
 }
 section.flexContainer {
     display: flex;
-    align-items: normal;
+    align-items: flex-start;
     flex-direction: row;
     width: 85%;
     margin: 0 auto;
 }
 section.flexContainer img{
     background-color: #f5deb3;
-    flex: 0;
+    flex: 0 0 auto;
     width: 25vw;
-    min-height: 25%;
+    height: auto;
     display: block;
     border: .7vw;
     border-style: outset;
     border-color: #8b4513;
+}
+section.flexContainer p {
+    flex: 1; /* Allow the text to take up remaining space */
+    margin: 0; /* Remove extra margin for consistency */
 }
 
 
@@ -163,4 +174,9 @@ span.readSpoiler{
 span.readSpoiler.on{
     display: inline;
     color: #580096;
+}
+
+.resume {
+    width: 75%;
+    height: 700px;
 }

@@ -28,6 +28,14 @@
     "filepath": "images\\frog_jump_3d.png"
   },
   {
+    "filename": "mouthwashing.jpg",
+    "filepath": "images\\mouthwashing.jpg"
+  },
+  {
+    "filename": "no-faceThumbnail.jpg",
+    "filepath": "images\\no-faceThumbnail.jpg"
+  },
+  {
     "filename": "nofaceteacup.jpg",
     "filepath": "images\\nofaceteacup.jpg"
   },
@@ -42,6 +50,10 @@
   {
     "filename": "onepiece.jpg",
     "filepath": "images\\onepiece.jpg"
+  },
+  {
+    "filename": "slime-screenshot.png",
+    "filepath": "images\\slime-screenshot.png"
   },
   {
     "filename": "subwayThumbnail.png",
