@@ -1,24 +1,182 @@
+nav {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+}
+nav img#logo {
+    width: 11vw; /* Adjust the size as needed */
+    margin-right: 2vw;
+}
+nav .button-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+nav .button {
+    margin-left: 2vw;
+}
+.button {
+    border: .5vw;
+    border-style: outset;
+    border-color: #556b2f;
+    padding: 1.7vw;
+    background-color: #f0e68c;
+    opacity: .9;
+    width: 7vw;
+    display: inline;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+#logoContainer {
+    position: relative;
+    display: inline-block; /* Keeps the logo and title together */
+}
+#logoContainer h2 {
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 1.5vw;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.5vw;
+    border-radius: 5px;
+}
+
+a:link {
+    color: blue;
+
+}
+a:visited {
+    color: purple;
+}
 body {
     background-color: #FFCC99; /* pastel orange */
+    background: url("../images/backgroundBug2.png");
     text-align: center;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
+body.plain-background {
+    background-image: none;
+    background-color: #4c8c61;
+}
 
-h1, h2, h3, p {
-    margin: 0;
-    padding: 3px;
+h1, h2, h3, p, ul {
+    padding: 5vw;
+    line-height: 1.5em;
+    border: .5vw;
+    border-style: ridge;
+    border-style: outset;
+    border-color: #8b4513; /* Changed to a wood brown */
+    background-color: #f5deb3; /* Changed to wheat color */
+    color: black;
+    width: 80%;
+    opacity: 1;
+    border-radius: 10px;
+    padding: 1vw;
+    margin: 1vw auto;
+}
+h1,h2,h3{
+    font-size: 2.5em;
+}
+p{
+    font-size: 1.25em;
+}
+p img{
+    max-width: 25%;
 }
 
 .footer{
-    position: fixed;
+    position: static;
     bottom: 0;
     left: 50%;
-    transform: translateX(-50%);
     width: 100%;
 }
 img.about{
     max-width: 25%;
     max-height: 500px;
+}
+section.flexContainer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 85%;
+    margin: 0 auto;
+}
+section.flexContainer img{
+    background-color: #f5deb3;
+    flex: 0 0 auto;
+    width: 25vw;
+    height: auto;
+    display: block;
+    border: .7vw;
+    border-style: outset;
+    border-color: #8b4513;
+}
+section.flexContainer p {
+    flex: 1; /* Allow the text to take up remaining space */
+    margin: 0; /* Remove extra margin for consistency */
+}
+
+
+/* The following CSS dictates the styling of the auto-generated image storage page*/
+/* Sets the max-width for the image-storage container*/
+div.image-container {
+    max-width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+/* Styles each individual image, maintaining aspect ratio and adding drop shadow*/
+div.image-container img {
+    max-width: 100%;
+    height: auto;
+    width: 20vw;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*Centers the labels of each individual image, as well as handles flexible displays */
+div.image-container .image_storage {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* This CSS helps handle the spoiler tags on the About page */
+span.playSpoiler{
+    display: none;
+}
+span.playSpoiler.on{
+    display: inline;
+    color: #580096;
+}
+span.watchSpoiler{
+    display: none;
+}
+span.watchSpoiler.on{
+    display: inline;
+    color: #580096;
+}
+span.readSpoiler{
+    display: none;
+}
+span.readSpoiler.on{
+    display: inline;
+    color: #580096;
+}
+
+.resume {
+    width: 75%;
+    height: 700px;
 }
