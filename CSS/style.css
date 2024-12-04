@@ -152,6 +152,22 @@ div.image-container .image_storage {
     flex-direction: column;
     align-items: center;
 }
+/* Make the canvas fill the entire viewport */
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1; /* Place it behind the content */
+    pointer-events: none; /* Prevent interaction with the canvas */
+}
+
+/* Style the content to appear above the canvas */
+.content {
+    position: relative;
+    z-index: 2; /* Place content above the canvas */
+}
 
 /* This CSS helps handle the spoiler tags on the About page */
 span.playSpoiler{
