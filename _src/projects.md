@@ -3,8 +3,9 @@ layout: base.njk
 title: Home
 permalink: "projects.html"
 ---
+<div class="content">
 
-# Projects
+## Projects
 This is the page where I'll post all the stuff I've worked on that I'm particularly
 proud of. Either for work, or for school!
 
@@ -82,3 +83,6 @@ project involved making a program of my choice, so I made a tiny game!
 <a href="https://studio.code.org/projects/applab/KHtD7QUc3AmDHL4CofbE2DgQxPopGfAhYTY5QfyCPwI">Play the game here!</a>
 
 <a href="#top">Go to top</a>
+</div>
+<canvas id="bg"></canvas>
+<script type="module" src="3dtest.js"></script>

@@ -7,6 +7,8 @@ module.exports = function (eleventyConfig){
     eleventyConfig.addPassthroughCopy("./_src/image_metadata.json");
     eleventyConfig.addPassthroughCopy("./_src/backgroundScroll.js");
     eleventyConfig.addPassthroughCopy("./_src/interact.js");
+    eleventyConfig.addPassthroughCopy("./_src/3dtest.js");
+
     return{
         dir: {
             input: "_src",

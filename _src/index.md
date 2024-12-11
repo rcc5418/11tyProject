@@ -3,6 +3,7 @@ layout: base.njk
 title: Home
 permalink: "index.html"
 ---
+<div class="content">
 
 ### Hello!
 
@@ -53,3 +54,6 @@ To install and run this game, download the zip file WEHAVEAPROBLEM.zip, uncompre
 it to the location of your choice, then open the file and choose either game.html,
 game NO FLICKER.html to play without the flickering effect, or game NO CRT.html to
 play without the CRT effect entirely.
+</div>
+<canvas id="bg"></canvas>
+<script type="module" src="./3dtest.js"></script>

@@ -8,6 +8,14 @@
     "filepath": "images\\backgroundBug2.png"
   },
   {
+    "filename": "bee.png",
+    "filepath": "images\\bee.png"
+  },
+  {
+    "filename": "blueBug.png",
+    "filepath": "images\\blueBug.png"
+  },
+  {
     "filename": "bugLogo.png",
     "filepath": "images\\bugLogo.png"
   },
@@ -28,6 +36,10 @@
     "filepath": "images\\frog_jump_3d.png"
   },
   {
+    "filename": "guyThumbsUp.jpg",
+    "filepath": "images\\guyThumbsUp.jpg"
+  },
+  {
     "filename": "mouthwashing.jpg",
     "filepath": "images\\mouthwashing.jpg"
   },
@@ -40,6 +52,10 @@
     "filepath": "images\\nofaceteacup.jpg"
   },
   {
+    "filename": "ObsidianKing.png",
+    "filepath": "images\\ObsidianKing.png"
+  },
+  {
     "filename": "ObsidianKingHungrier.png",
     "filepath": "images\\ObsidianKingHungrier.png"
   },
@@ -48,8 +64,20 @@
     "filepath": "images\\ObsidianKingNeutral.png"
   },
   {
+    "filename": "ObsidianKingUnbound.png",
+    "filepath": "images\\ObsidianKingUnbound.png"
+  },
+  {
     "filename": "onepiece.jpg",
     "filepath": "images\\onepiece.jpg"
+  },
+  {
+    "filename": "purpleTexture.png",
+    "filepath": "images\\purpleTexture.png"
+  },
+  {
+    "filename": "rainyForest.jpg",
+    "filepath": "images\\rainyForest.jpg"
   },
   {
     "filename": "slime-screenshot.png",

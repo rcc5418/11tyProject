@@ -3,6 +3,8 @@ layout: base.njk
 title: Gallery
 permalink: "gallery.html"
 ---
+<div class="content">
+
 ### Gallery
 This page contains samples of a lot of art I've created, like drawings,
 videos, and music!
@@ -13,8 +15,13 @@ It's still under progress, and the development cycle is unforgiving at times, bu
 It's my job to implement all of the assets, as well as write the game, but I create some assets myself as well!
 I designed the games primary antagonist, the **Obsidian King**. To fit into the games themes, we wanted him to have crow-like details. That's why he has those claw-like limbs and that beak-like maw.
 <br/>
+I also created the battle sprites for the character. It's interesting working on a game
+ like this, as many of the assets you make have to fit extremely specific measurements!
+<br/>
 <img src="./images/ObsidianKingNeutral.png" alt="The Obsidian King, a shadowy bird-like figure"/>
 <img src="./images/ObsidianKingHungrier.png" alt="The Obsidian King, a shadowy bird-like figure"/>
+<img src="./images/ObsidianKing.png" alt="The Obsidian King's battle sprite"/>
+<img src="./images/ObsidianKingUnbound.png" alt="The Obsidian King's battle sprite for his 2nd phase, with wings unfurled"/>
 
 One thing that I actually quite like to do is to mess around with 3D shapes in Adobe
                 Illustrator. <br />I'm a big fan of how the final image looks, it's an almost
@@ -54,3 +61,6 @@ Your browser does not support the audio element.</source>
 <audio controls><source src="./images/Silver_Clash.wav" type="audio/wav">
 Your browser does not support the audio element.</source>
 </audio>
+</div>
+<canvas id="bg"></canvas>
+<script type="module" src="3dtest.js"></script>

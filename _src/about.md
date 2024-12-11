@@ -3,6 +3,7 @@ layout: base.njk
 title: About
 permalink: "about.html"
 ---
+<div class="content">
 
 ### About
 
@@ -72,3 +73,6 @@ about it, sure, but overall, I highly recommend for anyone looking for a short h
 <span class="playSpoiler">Genuinely though, I found every character other than Jimmy to be way more interesting. I don't like Jimmy at all, he's awful. I mean, that's the point, I gather, I'm just not a huge fan of when games make you play as the worst person imaginable.</span>
 </p>
 </section>
+</div>
+<canvas id="bg"></canvas>
+<script type="module" src="3dtest.js"></script>
