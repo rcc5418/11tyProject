@@ -65,6 +65,7 @@ body.plain-background {
 }
 
 h1, h2, h3, p, ul {
+    text-align: left;
     padding: 5vw;
     line-height: 1.5em;
     border: .5vw;
@@ -88,13 +89,14 @@ p{
 p img{
     max-width: 25%;
 }
-
-.footer{
-    position: static;
+ .footer{
+    position: relative;
     bottom: 0;
-    left: 50%;
     width: 100%;
 }
+ .footer p{
+     z-index: 2;
+ }
 img.about{
     max-width: 25%;
     max-height: 500px;
@@ -159,7 +161,7 @@ div.image-container .image_storage {
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 1; /* Place it behind the content */
+    z-index: 0; /* Place it behind the content */
     pointer-events: none; /* Prevent interaction with the canvas */
 }
 

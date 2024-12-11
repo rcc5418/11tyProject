@@ -1,6 +1,8 @@
 
 import * as THREE from 'https://cdn.skypack.dev/three@0.128.0/build/three.module.js';
 import { OrbitControls } from 'https://cdn.skypack.dev/three@0.128.0/examples/jsm/controls/OrbitControls.js';
+import { FBXLoader } from 'https://cdn.skypack.dev/three@0.128.0/examples/jsm/loaders/FBXLoader.js';
+import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.128.0/examples/jsm/loaders/GLTFLoader.js';
 
 // Setup
 const scene = new THREE.Scene();
@@ -48,14 +50,15 @@ const thumbsMesh3 = new THREE.Mesh(cubeGeometry3, thumbsMaterial3);
 thumbsMesh3.position.set(53,-22,0);
 scene.add(thumbsMesh3);
 
+
 function animate() {
     requestAnimationFrame( animate );
 
-    thumbsMesh2.rotation.x += 0.01;
-    thumbsMesh2.rotation.y += 0.01;
+    thumbsMesh2.rotation.x += 0.005;
+    thumbsMesh2.rotation.y += 0.005;
 
-    thumbsMesh3.rotation.x += 0.01;
-    thumbsMesh3.rotation.y += 0.01;
+    thumbsMesh3.rotation.x += -0.005;
+    thumbsMesh3.rotation.y += -0.005;
 
     //controls.update()
 
